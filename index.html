@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="styles/style.css"/>
+  <title>Jogo da Senha</title>
+</head>
+<body>
+  <header>
+    
+    <h1>Jogo da Senha</h1>
+  </header>
+  <main>
+    
+    
+    <div id="cofre">
+      
+      <div id="visor">
+        
+        <p id="vis">X X X X</p>
+        
+      </div>
+      <div id="teclas">
+        <div> <button onclick="um()"> 1 </button> 
+              <button onclick="dois()"> 2 </button>
+              <button onclick="tres()"> 3 </button>
+        </div>
+        
+        <div>
+          <button onclick="quatro()"> 4  </button> 
+              <button onclick="cinco()"> 5 </button>
+              <button onclick="seis()"> 6 </button>
+          
+          
+        </div>
+        <div> 
+           <button onclick="sete()"> 7 </button> 
+              <button onclick ="oito()"> 8</button>
+              <button onclick="nove()"> 9 </button>
+        </div>
+        <div> <button onclick="zero()"> <span class="zero">0</span> </button></div>
+        
+        
+      </div>
+      
+      <button onclick="apaga()"><span>apaga</span></button>
+      
+      
+      
+      
+      
+    </div>
+    
+    
+    <div>
+      <h1> Digite a senha para adivinhar:</h1>
+      <input type="text" id="senha">
+      <button onclick="senhas"> <span> adicionar senha</span></button>
+      <p> escreva neste estilo: "1234"</p>
+      <button onclick="compara()"><span> verificar senha</span></button>
+      <p id="resposta"></p>
+      
+    </div>
+    
+    
+    
+  </main>
+  <footer></footer>
+    
+    <script src = "scripts/script.js"></script>
+  
+  
+</body>
+</html>

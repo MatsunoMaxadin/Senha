@@ -1,0 +1,42 @@
+#vis {
+   
+  
+  border: solid black 2px;
+  
+  
+}
+
+
+#cofre{
+  border: solid black 2px;
+  width: 300px;
+  text-align: center;
+  
+  
+}
+
+button {
+  
+  padding: 10px;
+  margin: 2px;
+  border: solid black 2px;
+  border-radius: 10px;
+  
+  
+  
+  
+  
+  
+  
+}
+
+
+
+
+
+
+.zero{
+  padding: 10px 50px 10px 50px;
+  
+  
+}
